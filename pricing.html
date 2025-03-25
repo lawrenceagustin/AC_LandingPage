@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Serif+Text:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>QuickCool</title>
+</head>
+<body class="bg-gray-100 h-screen">
+
+    <!--Start of Navbar-->
+    <nav class="bg-gray-300">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="/img/QuickCool-removebg-preview.png" class="h-8" alt="Flowbite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">QuickCool</span>
+          </a>
+          <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+              <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                  <li>
+                      <a href="index.html" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent">Home</a>
+                  </li>
+                  <li>
+                      <a href="services.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                  </li>
+                  <li>
+                      <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Pricing</a>
+                  </li>
+                  <li>
+                      <a href="contact.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!--End of Navbar-->
+
+  <div class="flex justify-center py-12">
+    <p class="text-7xl font-bold tracking-wider" style="font-family: 'Big Shoulders', serif;">
+      Air Conditioning Units
+    </p>
+  </div>
+
+  <div class="grid grid-cols-4 grid-row-4 gap-4 mx-8 mb-12">
+      <div class="bg-gray-600 p-6 mt-4 w-96 rounded-3xl transform transition-all hover:scale-110" style="height: 550px;">
+        <img src="img/ac1.png">
+        <p class="text-lg text-white font-bold tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+          QuickCool QC-09W - Model: QC-BX200-09W
+        </p>
+        <ul>
+          <li class="text-m italic text-white tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Type: 0.9 HP Window Type, Non-Inverter
+          </li>
+          <li class="text-m italic text-white tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Features: Manual controls, energy-efficient R-32 refrigerant, suitable for rooms up to 15 sqm
+          </li>
+          <li class="text-m italic text-white tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Price: ₱12,500
+          </li>
+        </ul>
+        <div class="bg-blue-900 w-32 rounded-3xl mt-4 transform transition-all hover:scale-110 hover:bg-blue-400 antialiased">
+          <p class="text-center text-white font-bold py-2 antialiased">
+            Buy
+          </p>
+        </div>
+      </div>
+      
+      <div class="flex flex-col  justify-center bg-gray-600 p-6 mt-4 w-96 rounded-3xl transform transition-all hover:scale-110" style="height: 550px;">
+        <img class="mt-12" src="img/ac2.png">
+        <p class="text-lg text-white font-bold tracking-wide pt-12" style="font-family: 'Roboto Flex', serif;">
+          QuickCool QC-12S - Model: QC-BX200-12S
+        </p>
+        <ul>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Type: 1.2 HP Split Type, Non-Inverter
+          </li>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Features: Remote control, sleep mode, anti-bacterial filter, ideal for rooms up to 20 sqm
+          </li>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Price: ₱18,000
+          </li>
+        </ul>
+        <div class="bg-blue-900 w-32 rounded-3xl mt-9 transform transition-all hover:scale-110 antialiased">
+          <p class="text-center text-white font-bold py-2 antialiased">
+            Buy
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col  justify-center bg-gray-600 p-6 mt-4 w-96 rounded-3xl transform transition-all hover:scale-110" style="height: 550px;">
+        <img class="mt-12" src="img/ac3.png">
+        <p class="text-lg text-white font-bold tracking-wide pt-12" style="font-family: 'Roboto Flex', serif;">
+          QuickCool QC-15WI - Model: QC-BX200-15WI
+        </p>
+        <ul>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Type: 1.5 HP Split Type, Non-Inverter
+          </li>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Features: Timer function, eco-friendly R-410A refrigerant, suitable for rooms up to 25 sqm
+          </li>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Price: ₱25,000
+          </li>
+        </ul>
+        <div class="bg-blue-900 w-32 rounded-3xl mt-9 transform transition-all hover:scale-110 antialiased">
+          <p class="text-center text-white font-bold py-2 antialiased">
+            Buy
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col  justify-center bg-gray-600 p-6 mt-4 w-96 rounded-3xl transform transition-all hover:scale-110" style="height: 550px;">
+        <img src="img/ac4.png" style="height: 200px;">
+        <p class="text-lg text-white font-bold tracking-wide pt-2" style="font-family: 'Roboto Flex', serif;">
+          QuickCool QC-18SI - Model: QC-BX200-18SI
+        </p>
+        <ul>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Type: 1.8 HP Window Type, Inverter
+          </li>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Features: Wi-Fi enabled, energy-saving mode, advanced air purification system, perfect for rooms
+          </li>
+          <li class="text-m text-white italic tracking-wide pt-4" style="font-family: 'Roboto Flex', serif;">
+            Price: ₱35,000
+          </li>
+        </ul>
+        <div class="bg-blue-900 w-32 rounded-3xl mt-9 transform transition-all hover:scale-110 antialiased">
+          <p class="text-center text-white font-bold py-2 antialiased">
+            Buy
+          </p>
+        </div>
+      </div>  
+    </div>
+    
+
+<!--Start of Footer https://flowbite.com/docs/components/footer/-->
+<footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="index.html" class="flex items-center">
+                  <img src="img/QuickCool.png" class="h-8 me-3" alt="QuickCool Logo" />
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">QuickCool</span>
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                      </li>
+                      <li>
+                          <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="" class="hover:underline ">Facebook</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Instagram</a>
+                      </li>
+                      <li>
+                        <a href="#" class="hover:underline">Twitter</a>
+                    </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Privacy Policy</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline">QuickCool™</a>. All Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                    </svg>
+                  <span class="sr-only">Facebook page</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                </svg>
+                  <span class="sr-only">Twitter page</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                  </svg>
+                  <span class="sr-only">Instagram account</span>
+              </a>
+          </div>
+      </div>
+    </div>
+</footer>
+<!--End of Footer https://flowbite.com/docs/components/footer/-->
+
+</body>
+</html>

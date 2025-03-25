@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Serif+Text:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>QuickCool</title>
+</head>
+<body class="bg-gray-300 h-screen">
+
+    <!--Start of Navbar-->
+    <nav class="bg-gray-300">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="/img/QuickCool-removebg-preview.png" class="h-8" alt="Flowbite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">QuickCool</span>
+          </a>
+          <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+              <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                  <li>
+                      <a href="index.html" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent">Home</a>
+                  </li>
+                  <li>
+                      <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Services</a>
+                  </li>
+                  <li>
+                      <a href="pricing.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                  </li>
+                  <li>
+                      <a href="contact.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+  <!--End of Navbar-->
+
+  <div class="relative w-full">
+    <img src="img/ac-install.jpg" style="object-fit: cover; width: 2000px; height: 780px;">
+    
+    <div class="absolute inset-0 bg-gray-800 opacity-40"></div>
+
+    <div class="absolute inset-0 flex items-center">
+        <div class="ml-auto flex flex-col items-end">
+            <h1 class="text-8xl text-center md:text-8xl font-black text-white tracking-wide px-8 md:px-24" style="font-family: 'Big Shoulders', serif;">
+              Expert Air Conditioning Services for Your Comfort
+            </h1>
+        </div>
+    </div>
+</div>
+<div>
+
+<div class="grid grid-cols-3 gap-8 bg-gray-800 max-w-7xl mx-auto rounded-xl my-8 py-14 px-14">
+  <!--Installation Services-->
+  <div class="flex flex-col items-center mt-4 ml-4 mb-4 bg-gray-700 rounded-3xl transform transition-all hover:scale-105">
+    <p class="flex flex-col text-center text-5xl font-bold p-5 text-white tracking-wide" style="font-family: 'Big Shoulders', serif;">
+      Installation Services
+    </p>
+    <ul class="pt-4">
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">New AC Installation</span> – We install high-efficiency air conditioning systems for homes and businesses.
+        </p>
+      </li>
+
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">Ductless Mini-Split Installation</span> – Energy-efficient cooling solutions with no ductwork required.
+        </p>
+      </li>
+
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">Smart Thermostat Setup</span> – Upgrade to a smart thermostat for better temperature control and savings.
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <!--Repair & Maintenance-->
+  <div class="flex flex-col items-center mt-4 mb-4 bg-gray-700 rounded-3xl transform transition-all hover:scale-105">
+    <p class="flex flex-col text-center text-5xl font-bold p-5 text-white tracking-wide" style="font-family: 'Big Shoulders', serif;">
+      Repair & Maintenance
+    </p>
+    <ul class="pt-4">
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">AC Troubleshooting & Repairs</span> – Quick and reliable fixes for all AC issues.
+        </p>
+      </li>
+
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">Refrigerant Recharge & Leak Detection</span> – Ensure optimal cooling efficiency.
+        </p>
+      </li>
+
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">Seasonal Maintenance & Tune-Ups </span> – Prevent breakdowns and improve performance.
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <!--Specialized Service-->
+  <div class="flex flex-col items-center mt-4 mr-4 mb-4 bg-gray-700 rounded-3xl transform transition-all hover:scale-105">
+    <p class="flex flex-col text-center text-5xl font-bold p-5 text-white tracking-wide" style="font-family: 'Big Shoulders', serif;">
+      Specialized Services
+    </p>
+    <ul class="pt-4">
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">Air Duct Cleaning & Sealing</span> – We install high-efficiency air conditioning systems for homes and businesses.
+        </p>
+      </li>
+
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">Indoor Air Quality Testing</span> – Energy-efficient cooling solutions with no ductwork required.
+        </p>
+      </li>
+
+      <li class="flex text-white font-medium pb-2 items-start gap-2 px-4 pb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+          <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
+        </svg>        
+        <p class="text-xl" style="font-family: 'Roboto Flex', serif;">
+          <span style="color: rgb(113, 204, 234); font-weight: 800;">24/7 Emergency Repairs</span> – Fast response for urgent cooling issues.
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  
+
+
+</div>
+<!--Contact Us Part-->
+<div class="flex flex-col mx-auto my-auto justify-center items-center py-6 mb-8 bg-gray-800 border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 max-w-2xl">
+  <a href="#">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Need fast and reliable AC service? Contact us today!</h5>
+  </a>
+  <div>
+    <img class="w-96 h-auto py-9" src="img/Adobe Express - file.png">
+  </div>
+  <a href="contact.html" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+      Contact Us
+      <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+      </svg>
+  </a>
+</div>
+<!--Contact Us Part-->  
+</div>
+  
+
+
+<!--Start of Footer https://flowbite.com/docs/components/footer/-->
+<footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="index.html" class="flex items-center">
+                  <img src="img/QuickCool.png" class="h-8 me-3" alt="QuickCool Logo" />
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">QuickCool</span>
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                      </li>
+                      <li>
+                          <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="" class="hover:underline ">Facebook</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Instagram</a>
+                      </li>
+                      <li>
+                        <a href="#" class="hover:underline">Twitter</a>
+                    </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Privacy Policy</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline">QuickCool™</a>. All Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                    </svg>
+                  <span class="sr-only">Facebook page</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                </svg>
+                  <span class="sr-only">Twitter page</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                  </svg>
+                  <span class="sr-only">Instagram account</span>
+              </a>
+          </div>
+      </div>
+    </div>
+</footer>
+<!--End of Footer https://flowbite.com/docs/components/footer/-->
+
+</body>
+</html>
